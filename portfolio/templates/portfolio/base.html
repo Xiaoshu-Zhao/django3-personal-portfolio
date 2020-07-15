@@ -11,14 +11,14 @@
 
     <link rel="stylesheet" href="{% static "portfolio/custom.css" %}">
 
-    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 
     <title>Xiaoshu Zhao</title>
   </head>
   <body>
 
   	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#">Dashboard</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -29,7 +29,7 @@
         <a class="nav-link" href="https://www.linkedin.com/in/xiaoshu-zhao-b427a616b/" target="_blank">LinkedIn</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="https://github.com/Xiaoshu-Zhao" target="_blank">Github</a>
+        <a class="nav-link" href="{% url 'blog:all_blogs' %}" target="_blank">My Blog</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -40,7 +40,7 @@
           <a class="dropdown-item" href="https://www.instagram.com/james.zhao.735/" target="_blank">Instagram</a>
           <a class="dropdown-item" href="https://www.facebook.com/james.zhao.735">Facebook</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="{% url 'blog:all_blogs' %}" class="btn btn-primary">My Blog</a>
+          <a class="dropdown-item" href="https://github.com/Xiaoshu-Zhao" class="btn btn-primary">Github</a>
         </div>
       </li>
       <li class="nav-item">
